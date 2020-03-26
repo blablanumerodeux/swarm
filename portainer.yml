@@ -1,0 +1,28 @@
+version: '3.3'
+
+services:
+  portainer:
+    image: portainer/portainer
+    #restart: always
+    #ports:
+    #  - "9000:9000"
+    command: -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    deploy:
+      labels:
+        - "traefik.http.routers.portainer.rule=Host(`portainer.localhost`)"
+        - traefik.http.services.portainer.loadbalancer.server.port=9000
+        - traefik.http.services.portainer.loadbalancer.server.scheme=http
+        - "traefik.docker.network=traefik_traefik"
+        - "traefik.enable=true"
+    networks:
+      - traefik_traefik
+
+networks:
+  traefik_traefik:
+    external:
+      name: traefik_traefik
+volumes:
+  portainer_data:
