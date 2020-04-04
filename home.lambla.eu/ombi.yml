@@ -12,4 +12,4 @@ services:
       - /home/dreaser/.config/Ombi:/config
     ports:
       - 3579:3579
-    restart: unless-stopped
+
