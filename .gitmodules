@@ -7,3 +7,6 @@
 [submodule "project.lambla.eu/vault"]
 	path = project.lambla.eu/vault
 	url = git@github.com:blablanumerodeux/vault.git
+[submodule "project.lambla.eu/DaKar"]
+	path = project.lambla.eu/DaKar
+	url = git@github.com:DaKarInternational/DaKar.git
