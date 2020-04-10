@@ -4,3 +4,6 @@
 [submodule "project.lambla.eu/consul"]
 	path = project.lambla.eu/consul
 	url = git@github.com:blablanumerodeux/consul.git
+[submodule "project.lambla.eu/vault"]
+	path = project.lambla.eu/vault
+	url = git@github.com:blablanumerodeux/vault.git
