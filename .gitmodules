@@ -1,0 +1,3 @@
+[submodule "project.lambla.eu/traefik"]
+	path = project.lambla.eu/traefik
+	url = git@github.com:blablanumerodeux/traefik.git
