@@ -1,7 +1,6 @@
 [submodule "project.lambla.eu/traefik"]
 	path = project.lambla.eu/traefik
 	url = git@github.com:blablanumerodeux/traefik.git
-
 [submodule "project.lambla.eu/consul"]
 	path = project.lambla.eu/consul
 	url = git@github.com:blablanumerodeux/consul.git
