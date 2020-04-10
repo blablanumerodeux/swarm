@@ -10,3 +10,6 @@
 [submodule "project.lambla.eu/DaKar"]
 	path = project.lambla.eu/DaKar
 	url = git@github.com:DaKarInternational/DaKar.git
+[submodule "project.lambla.eu/homeless"]
+	path = project.lambla.eu/homeless
+	url = git@github.com:dans-la-rue/homeless.git
