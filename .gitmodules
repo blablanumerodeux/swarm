@@ -13,3 +13,6 @@
 [submodule "project.lambla.eu/homeless"]
 	path = project.lambla.eu/homeless
 	url = git@github.com:dans-la-rue/homeless.git
+[submodule "project.lambla.eu/gopherhole"]
+	path = project.lambla.eu/gopherhole
+	url = git@github.com:blablanumerodeux/gopherhole.git
