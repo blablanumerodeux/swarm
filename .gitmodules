@@ -1,18 +1,24 @@
 [submodule "project.lambla.eu/traefik"]
 	path = project.lambla.eu/traefik
 	url = git@github.com:blablanumerodeux/traefik.git
+	branch = master
 [submodule "project.lambla.eu/consul"]
 	path = project.lambla.eu/consul
 	url = git@github.com:blablanumerodeux/consul.git
+	branch = master
 [submodule "project.lambla.eu/vault"]
 	path = project.lambla.eu/vault
 	url = git@github.com:blablanumerodeux/vault.git
+	branch = master
 [submodule "project.lambla.eu/DaKar"]
 	path = project.lambla.eu/DaKar
 	url = git@github.com:DaKarInternational/DaKar.git
+	branch = master
 [submodule "project.lambla.eu/homeless"]
 	path = project.lambla.eu/homeless
 	url = git@github.com:dans-la-rue/homeless.git
+	branch = master
 [submodule "project.lambla.eu/gopherhole"]
 	path = project.lambla.eu/gopherhole
 	url = git@github.com:blablanumerodeux/gopherhole.git
+	branch = master
