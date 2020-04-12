@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  gopher:
+    image: prodhe/gopher:latest
+    ports:
+      - 70:70
+    networks:
+      - traefik_traefik
+    environment:
+      - GOPHER_ADDRESS=gopher.project.lambla.eu
+    volumes:
+      - /opt/gopher/public:/public
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.gopher.rule=Host(`gopher.project.lambla.eu`)"
+        - "traefik.http.routers.gopher.entrypoints=web"
+        - "traefik.http.services.gopher.loadbalancer.server.port=70"
+
+networks:
+  traefik_traefik:
+    driver: overlay
+    external: true
